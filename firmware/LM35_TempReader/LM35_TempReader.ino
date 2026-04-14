@@ -4,6 +4,7 @@ int adcValues[2]; // Mảng chứa 2 giá trị ADC
 float temp[2];    // Mảng chứa 2 giá trị nhiệt độ
 
 void setup() {
+  // SV A thêm dòng này để tạo conflict
   Serial.begin(9600);
 }
 
